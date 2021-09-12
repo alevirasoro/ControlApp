@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControldeGastos", "ControldeGastos\ControldeGastos.csproj", "{029AC007-44F4-4FB4-B41A-346DD5976772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dominio", "dominio\dominio.csproj", "{7DF44096-9431-480E-A80F-FD3C846CF155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negocio", "negocio\negocio.csproj", "{7D07273B-BF28-42D8-A028-8283BDE9B861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{029AC007-44F4-4FB4-B41A-346DD5976772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029AC007-44F4-4FB4-B41A-346DD5976772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029AC007-44F4-4FB4-B41A-346DD5976772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029AC007-44F4-4FB4-B41A-346DD5976772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF44096-9431-480E-A80F-FD3C846CF155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF44096-9431-480E-A80F-FD3C846CF155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF44096-9431-480E-A80F-FD3C846CF155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF44096-9431-480E-A80F-FD3C846CF155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D07273B-BF28-42D8-A028-8283BDE9B861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D07273B-BF28-42D8-A028-8283BDE9B861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D07273B-BF28-42D8-A028-8283BDE9B861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D07273B-BF28-42D8-A028-8283BDE9B861}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9174B877-D98C-448A-877F-F0AE96A2C28A}
+	EndGlobalSection
+EndGlobal
