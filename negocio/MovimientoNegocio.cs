@@ -9,12 +9,12 @@ namespace negocio
 {
     public class MovimientoNegocio
     {
-        public List<Movimiento> listar()
+        public List<Movimiento> listar(int idCuenta)
         {
             List<Movimiento> lista = new List<Movimiento>();
             AccesoDatos datos = new AccesoDatos();
             try {
-                datos.setearConsulta("");
+                datos.setearConsulta("select A.IDUsuario, A.Saldo from CUENTAS A WHERE A.IDCuenta = " + idCuenta);
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read()) {

@@ -8,8 +8,8 @@ namespace dominio
 {
     public class Concepto
     {
-        public int ID { get; set }
-        public string ConceptoMovimiento { get; set }
+        public int ID { get; set; }
+        public string ConceptoMovimiento { get; set; }
 
     }
 }

@@ -8,10 +8,11 @@ namespace dominio
 {
     public class Cuenta
     {
-        public int ID { get; set }
-        public decimal Saldo { get; set }
-        public int Usuario { get; set }
-        public Movimiento Movimiento { get; set }
+        public int ID { get; set; }
+        public int IDUsuario { get; set; }
+        public decimal Saldo { get; set; }
+        public int Usuario { get; set; }
+        public Movimiento Movimiento { get; set; }
 
     }
 }

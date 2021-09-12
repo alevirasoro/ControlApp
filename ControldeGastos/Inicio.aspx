@@ -9,11 +9,6 @@
 <body>
 
     <div>
-        <script type="text/javascript">
-              var sal = "<% =sal %>";
-        </script>
-    </div>
-    <div>
         <p><%= sal %></p>
     </div>
 

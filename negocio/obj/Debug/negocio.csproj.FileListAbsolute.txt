@@ -1,0 +1,9 @@
+C:\Users\USER\source\repos\ControldeGastos\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\ControldeGastos\negocio\bin\Debug\negocio.dll
+C:\Users\USER\source\repos\ControldeGastos\negocio\bin\Debug\negocio.pdb
+C:\Users\USER\source\repos\ControldeGastos\negocio\bin\Debug\dominio.dll
+C:\Users\USER\source\repos\ControldeGastos\negocio\bin\Debug\dominio.pdb
+C:\Users\USER\source\repos\ControldeGastos\negocio\obj\Debug\negocio.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\ControldeGastos\negocio\obj\Debug\negocio.csproj.CopyComplete
+C:\Users\USER\source\repos\ControldeGastos\negocio\obj\Debug\negocio.dll
+C:\Users\USER\source\repos\ControldeGastos\negocio\obj\Debug\negocio.pdb

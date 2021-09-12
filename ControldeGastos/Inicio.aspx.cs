@@ -11,24 +11,29 @@ namespace ControldeGastos
 {
     public partial class Inicio : System.Web.UI.Page
     {
-        protected decimal sal = 10000;
+        protected decimal sal = -1;
+        public int idCuenta = 0;
         public List<Movimiento> lista;
         public List<Movimiento> listaMovimientos;
         
         protected void Page_Load(object sender, EventArgs e)
         {
-            CuentaNegocio cuenta = new CuentaNegocio();
+            Cuenta cuenta = new Cuenta();
+            CuentaNegocio negocio = new CuentaNegocio();
             MovimientoNegocio movimiento = new MovimientoNegocio();
             
+
             try {
                 //BUSCAR EL ID DE USUARIO (O EMAIL EN SU DEFECTO) EN EL SESSION, SE TIENE QUE GUARDAR EN EL LOGIN ESTO
-                sal = cuenta.buscarSaldo(1);
-                lista = movimiento.listar();
-                Session.Add("listaMovimientos", lista);
-                listaMovimientos = (List<Movimiento>Session["listaMovimientos"]);
-                repetidor.DataSource = listaMovimientos;
-                repetidor.DataBind();
-
+                cuenta = negocio.buscarCuenta(1);
+                if(cuenta.ID != 0) {
+                    idCuenta = cuenta.ID;
+                    lista = movimiento.listar(idCuenta);
+                    Session.Add("listaMovimientos", lista);
+                    listaMovimientos = (List<Movimiento>)Session["listaMovimientos"];
+                    repetidor.DataSource = listaMovimientos;
+                    repetidor.DataBind();       
+                }
             }
             catch(Exception ex) {
                 throw ex;

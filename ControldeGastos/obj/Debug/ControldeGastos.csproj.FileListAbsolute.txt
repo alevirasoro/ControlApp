@@ -72,3 +72,7 @@ C:\Users\USER\source\repos\ControldeGastos\ControldeGastos\obj\Debug\ControldeGa
 C:\Users\USER\source\repos\ControldeGastos\ControldeGastos\obj\Debug\ControldeGastos.csproj.CopyComplete
 C:\Users\USER\source\repos\ControldeGastos\ControldeGastos\obj\Debug\ControldeGastos.dll
 C:\Users\USER\source\repos\ControldeGastos\ControldeGastos\obj\Debug\ControldeGastos.pdb
+C:\Users\USER\source\repos\ControldeGastos\ControldeGastos\bin\dominio.dll
+C:\Users\USER\source\repos\ControldeGastos\ControldeGastos\bin\negocio.dll
+C:\Users\USER\source\repos\ControldeGastos\ControldeGastos\bin\dominio.pdb
+C:\Users\USER\source\repos\ControldeGastos\ControldeGastos\bin\negocio.pdb
