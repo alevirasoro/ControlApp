@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 
 namespace negocio
 {
-    class AccesoDatos
+    public class AccesoDatos
     {
         private SqlConnection conexion;
         private SqlCommand comando;

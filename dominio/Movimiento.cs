@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace dominio
 {
-    class Movimiento
+    public class Movimiento
     {
         public decimal Importe { get; set }
+        public string Titulo { get; set }
         public Concepto Concepto { get; set }
         public string Descripcion { get; set }
         public bool Tipo { get; set }

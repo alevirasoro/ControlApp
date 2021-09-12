@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace dominio
 {
-    class Cuenta
+    public class Cuenta
     {
         public int ID { get; set }
         public decimal Saldo { get; set }
